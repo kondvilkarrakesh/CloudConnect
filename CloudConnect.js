@@ -29,7 +29,7 @@ var fileSystem = require('fs');
 
 program
   .version('1.0.0')
-  .option('-c, --cloudProvider <cloudProvider>', 'Cloud Provider', /^(Amazon|Azure|DigitalOcean|HP|Joyent|Openstack|Rackspace)$/i, 'Openstack')
+  .option('-c, --cloudProvider <cloudProvider>', 'Cloud Provider', /^(amazon|azure|digitalocean|hp|joyent|openstack|rackspace)$/i, 'openstack')
   .option('-u, --userName <userName>', 'User Name')
   .option('-p, --password <password>', 'Password')
   .option('-r, --region <region>', 'Region', /^(RegionOne)$/i, 'RegionOne')
