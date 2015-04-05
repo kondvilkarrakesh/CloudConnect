@@ -1,0 +1,4 @@
+{"environmentInstances" : [
+{"name": "AppServer1", "flavour":"m1.tiny","image":"cirros-0.3.2-x86_64-uec"},
+{"name": "WebServer1", "flavour":"m1.nano","image":"cirros-0.3.2-x86_64-uec"}
+]}

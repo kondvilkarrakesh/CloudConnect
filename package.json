@@ -1,0 +1,12 @@
+{
+ "name" : "cloudconnect",
+ "version" : "1.0.0",
+ "description" : "Connect to any cloud through a command prompt.",
+ "repository" : "https://github.com/kondvilkarrakesh/CloudConnect",
+  "dependencies": 
+  {
+  "commander":"*",
+  "pkgcloud":"*",
+  "underscore":"*"
+  }
+}
